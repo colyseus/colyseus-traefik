@@ -39,7 +39,7 @@ export default config({
       // Setup "all servers" router
       const value = await matchMaker.presence.get(`traefik/http/routers/all-servers/rule`);
       if (!value) {
-        matchMaker.presence.set(`traefik/http/routers/all-servers/rule`, `Host(\`all.game.dev\`)` )
+        matchMaker.presence.set(`traefik/http/routers/all-servers/rule`, `Host(\`backend.yourgamedomain.com\`)` )
         matchMaker.presence.set(`traefik/http/routers/all-servers/service`, `all-servers`);
       }
 

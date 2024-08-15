@@ -1,5 +1,8 @@
 providers:
+  #
   # Routers and Services are defined dynamically via Redis
+  # (See app.config.ts sources, line 30~55)
+  #
   redis:
     rootKey: "traefik"
     endpoints:
