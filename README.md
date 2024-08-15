@@ -1,11 +1,8 @@
-# Colyseus Load Balancer with Traefik
+# Load Balancing Colyseus with Traefik
 
-This is an example configuration using Traefik as Load Balancer behind multiple
-Colyseus servers, with Redis as the central configuration store.
+![Traefik Dashboard Screenshot](traefik-dashboard-screenshot.png)
 
-## Overview
-
-This system uses Traefik as a load balancer for Colyseus game servers. Each Colyseus server instance is dynamically registered with Traefik using Redis as the configuration provider. This allows for easy scaling and management of game server instances.
+This repository demonstrates how to use Traefik as a load balancer for Colyseus game servers. Each Colyseus server instance is dynamically registered with Traefik using Redis as the configuration provider. This allows for easy scaling and management of game server instances.
 
 **Key features:**
 
