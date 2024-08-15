@@ -1,0 +1,10 @@
+[5/3/2024, 10:55:17 AM] @colyseus/loadtest
+endpoint: ws://localhost:2567
+roomName: my_room
+numClients: 100
+logLevel: all
+output: /Users/endel/Projects/colyseus/test/my-server/loadtest.log
+[5/3/2024, 10:56:18 AM] Finished. Summary:
+    Successful connections: 100
+    Failed connections: 0
+    Total errors: 0
