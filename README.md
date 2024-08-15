@@ -9,7 +9,7 @@ This repository demonstrates how to use Traefik as a load balancer for Colyseus 
 - Dynamic routing with Traefik
 - Redis for centralized configuration
 - Wildcard DNS for accessing individual server instances
-- Automatic server registration and deregistration
+- Server registration and de-registration (e.g., for scaling up and down)
 
 ## Prerequisites
 
